@@ -7,7 +7,7 @@
         else{count +=1;}  // setting constraint so until for loop has iterated across array and found value of 0 , traverse and return count value
         
     }
-    return count;  // 
+    return count;  
 };
 
 
