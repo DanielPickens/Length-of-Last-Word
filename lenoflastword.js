@@ -1,13 +1,13 @@
   const lengthOfLastWord = function(s) {
     s = s.trim();  //setting method of trim as property of s, where the trim() method removes whitespace from both ends of s 
     let count = 0;
-    for (let i = s.length-1; i>=0; i--){  //setting constraints 
+    for (let i = s.length-1; i>=0; i--){  //for loop will traverse the array of s  and if element i on the array's indice finds correlation with an open string dictionary, until else count is reach
         if(s[i] === " " ){break;}
         
         else{count +=1;}
         
     }
-    return count;
+    return count;  // once count is reached return's it's value
 };
 
 
